@@ -1,0 +1,15 @@
+1. Créer un repository sur github
+2. Regarder différent jeux du pendu pour m'inspirer et faire un choix de design simple que je pourrais réutiliser.
+3. Une fois le design a faire en tête créer le html
+4. Commencer le css : 
+    - Voir les choses principal à créer (font(google.font), color(coolors.co), container, etc...)
+    - Fond titre sur freefrontend.com/css-backgroud-patterns
+    - Créer le reste du css en partant du header au footer
+
+
+
+
+
+
+Problème
+- ou placer le container (pour bien utiliser flexbox)

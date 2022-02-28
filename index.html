@@ -7,9 +7,73 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+
     <title> Jeux du pendu</title>
 </head>
 <body>
+    <header>
+        <div class="title">
+            <h1>Jeux du pendu</h1>
+            <span class="sub-title">Projet qui utilise le html, css et js.</span>
+        </div>
+    </header>
+    <main>
+        <!--Part-1-->
+        <ul class="infos">
+            <li>Niveau : <span>1</span></li>
+            <li>Score : <span class="score-total">0</span></li>
+        </ul>
+        <!--Part-2-->
+        <div class="part-2">
+            <p>Utilisez les lettres de l'alphabet en dessous pour trouver le mot.</p>
+            <div class="alphabet">
+                <div class="letter" id="a"></div>
+                <div class="letter" id="b"></div>
+                <div class="letter" id="c"></div>
+                <div class="letter" id="d"></div>
+                <div class="letter" id="e"></div>
+                <div class="letter" id="f"></div>
+                <div class="letter" id="g"></div>
+                <div class="letter" id="h"></div>
+                <div class="letter" id="i"></div>
+                <div class="letter" id="j"></div>
+                <div class="letter" id="k"></div>
+                <div class="letter" id="l"></div>
+                <div class="letter" id="m"></div>
+                <div class="letter" id="n"></div>
+                <div class="letter" id="o"></div>
+                <div class="letter" id="p"></div>
+                <div class="letter" id="q"></div>
+                <div class="letter" id="r"></div>
+                <div class="letter" id="s"></div>
+                <div class="letter" id="t"></div>
+                <div class="letter" id="u"></div>
+                <div class="letter" id="v"></div>
+                <div class="letter" id="w"></div>
+                <div class="letter" id="x"></div>
+                <div class="letter" id="y"></div>
+                <div class="letter" id="z"></div>
+            </div>
+        </div>
+        <!--Canvas-->
+        <canvas></canvas>
+        <!--Part-3-->
+        <div class="part-3">
+            <p class="word-to-guess">Mot à deviner</p>
+            <div>Vous avez <span class="nbr-lives">8</span> vies.</div>
+            <button>Rejouer</button>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            Jeux créer en 2022
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
