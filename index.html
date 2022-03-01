@@ -31,48 +31,51 @@
         <div class="part-2">
             <p>Utilisez les lettres de l'alphabet en dessous pour trouver le mot.</p>
             <div class="alphabet">
-                <div class="letter" id="a"></div>
-                <div class="letter" id="b"></div>
-                <div class="letter" id="c"></div>
-                <div class="letter" id="d"></div>
-                <div class="letter" id="e"></div>
-                <div class="letter" id="f"></div>
-                <div class="letter" id="g"></div>
-                <div class="letter" id="h"></div>
-                <div class="letter" id="i"></div>
-                <div class="letter" id="j"></div>
-                <div class="letter" id="k"></div>
-                <div class="letter" id="l"></div>
-                <div class="letter" id="m"></div>
-                <div class="letter" id="n"></div>
-                <div class="letter" id="o"></div>
-                <div class="letter" id="p"></div>
-                <div class="letter" id="q"></div>
-                <div class="letter" id="r"></div>
-                <div class="letter" id="s"></div>
-                <div class="letter" id="t"></div>
-                <div class="letter" id="u"></div>
-                <div class="letter" id="v"></div>
-                <div class="letter" id="w"></div>
-                <div class="letter" id="x"></div>
-                <div class="letter" id="y"></div>
-                <div class="letter" id="z"></div>
+                <div class="letter" id="a">a</div>
+                <div class="letter" id="b">b</div>
+                <div class="letter" id="c">c</div>
+                <div class="letter" id="d">d</div>
+                <div class="letter" id="e">e</div>
+                <div class="letter" id="f">f</div>
+                <div class="letter" id="g">g</div>
+                <div class="letter" id="h">h</div>
+                <div class="letter" id="i">i</div>
+                <div class="letter" id="j">j</div>
+                <div class="letter" id="k">k</div>
+                <div class="letter" id="l">l</div>
+                <div class="letter" id="m">m</div>
+                <div class="letter" id="n">n</div>
+                <div class="letter" id="o">o</div>
+                <div class="letter" id="p">p</div>
+                <div class="letter" id="q">q</div>
+                <div class="letter" id="r">r</div>
+                <div class="letter" id="s">s</div>
+                <div class="letter" id="t">t</div>
+                <div class="letter" id="u">u</div>
+                <div class="letter" id="v">v</div>
+                <div class="letter" id="w">w</div>
+                <div class="letter" id="x">x</div>
+                <div class="letter" id="y">y</div>
+                <div class="letter" id="z">z</div>
             </div>
         </div>
         <!--Canvas-->
-        <canvas></canvas>
+        <div class="canvas">
+            <canvas id="canvas-id"></canvas>
+        </div>
         <!--Part-3-->
         <div class="part-3">
-            <p class="word-to-guess">Mot à deviner</p>
-            <div>Vous avez <span class="nbr-lives">8</span> vies.</div>
+            <form action="">
+                <label>Mot à deviner</label>
+                <input class="word-to-guess" type="text" placeholder="mot">
+            </form>
+            <div>Il vous restes <span class="nbr-lives">8</span> vies.</div>
             <button>Rejouer</button>
         </div>
 
     </main>
     <footer>
-        <div class="container">
-            Jeux créer en 2022
-        </div>
+        Created by Imanuel Lombardo in 2022
     </footer>
     <script src="main.js"></script>
 </body>
