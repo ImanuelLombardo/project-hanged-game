@@ -5,6 +5,9 @@
     - Voir les choses principal à créer (font(google.font), color(coolors.co), container, etc...)
     - Fond titre sur freefrontend.com/css-backgroud-patterns
     - Créer le reste du css en partant du header au footer
+5. Créer le dessin du pendu dans le canvas
+6. Créer des mots dans un tableau pour le jeux
+7. Créer le nombre de case (vide) pour chaque lettre de mot à trouver dans un div. Et ensuite pour chaque clique remplir les cases si lettre est dans le mot.
 
 
 
@@ -15,3 +18,12 @@ Problème, question, doute
 - ou placer le container (pour bien utiliser flexbox) (J'ai examiner mon html et me suis dit qu'il n'y en avait pas besoin)
 - avec git faut il créer des branchs même si on travail seul ? Faut-il pushé souvent ou plutot lorsqu'on est sur que le code de changera pas ?
 - comment faire le dessin du pendu ??? (soit en img, soit en css, soit en js) (j'ai fait le choix de le faire dans un canvas donc en js. Que je vais mettre dans un module)
+- recherche d'une api de dictionnaire pour prendre des mots au hasard mais je n'ai rien trouver donc je vais faire un tableau
+- problème de logique pour créer des cases vides pour les lettres de chaque mot. J'arrive à prendre les lettres au click, ensuite je transforme les mots à trouver en tableau pour avoir chaque lettre et la je galère pour afficher des cases vides avec le nombre de lettre a trouver pour chaque mot.
+- Grand souci de comprehension de "document.createTextNode/ document.textContent", "appendChild". Alors je me j'ai été regarder de plus près ces propriétés sur mdn.  
+- Galère pour la logic du code pour : 
+        - Au click vérifier la lettre si elle est dans le mot ou non.
+            - Si oui : remplir la case vide par la lettre.
+            - Si non : laisser la case vide.
+        - Pendant 1 semaine je suis resté bloquer sur mon code et pour finir dimanche je me suis dis que j'allais chercher de l'aide dans discord et grace à Styx j'ai pu résoudre mon soucis (soucis de logique). Pour voir de plus près voici le codepen de mon code ou je bugais "https://codepen.io/emanuel-lombardo/pen/zYPbLVM", et enfin j'ai pu continué de coder la suite.
+        

@@ -144,7 +144,8 @@ footer {
     height: auto;
     padding: 1rem;
 }
-.letter {
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +157,9 @@ footer {
     border: 2px solid var(--orange);
 
     text-transform: uppercase;
+}
 
+.letter {
     transition: 0.6s;
 }
 
@@ -165,6 +168,8 @@ footer {
     height: 3rem;
 
     font-size: 1.6rem;
+
+    cursor: pointer;
 }
 
 
@@ -172,7 +177,11 @@ footer {
 /*Canvas*/
 
 .canvas {
-    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    width: 80%;
     height: 60%;
     background-color: rgba(0, 0, 0, 0.2);
 
@@ -180,7 +189,17 @@ footer {
 }
 
 #canvas-id {
-    width: 100%;
+    width: 35%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#find-letters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 63%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
 }

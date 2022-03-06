@@ -31,37 +31,38 @@
         <div class="part-2">
             <p>Utilisez les lettres de l'alphabet en dessous pour trouver le mot.</p>
             <div class="alphabet">
-                <div class="letter" id="a">a</div>
-                <div class="letter" id="b">b</div>
-                <div class="letter" id="c">c</div>
-                <div class="letter" id="d">d</div>
-                <div class="letter" id="e">e</div>
-                <div class="letter" id="f">f</div>
-                <div class="letter" id="g">g</div>
-                <div class="letter" id="h">h</div>
-                <div class="letter" id="i">i</div>
-                <div class="letter" id="j">j</div>
-                <div class="letter" id="k">k</div>
-                <div class="letter" id="l">l</div>
-                <div class="letter" id="m">m</div>
-                <div class="letter" id="n">n</div>
-                <div class="letter" id="o">o</div>
-                <div class="letter" id="p">p</div>
-                <div class="letter" id="q">q</div>
-                <div class="letter" id="r">r</div>
-                <div class="letter" id="s">s</div>
-                <div class="letter" id="t">t</div>
-                <div class="letter" id="u">u</div>
-                <div class="letter" id="v">v</div>
-                <div class="letter" id="w">w</div>
-                <div class="letter" id="x">x</div>
-                <div class="letter" id="y">y</div>
-                <div class="letter" id="z">z</div>
+                <div class="letter box">a</div>
+                <div class="letter box">b</div>
+                <div class="letter box">c</div>
+                <div class="letter box">d</div>
+                <div class="letter box">e</div>
+                <div class="letter box">f</div>
+                <div class="letter box">g</div>
+                <div class="letter box">h</div>
+                <div class="letter box">i</div>
+                <div class="letter box">j</div>
+                <div class="letter box">k</div>
+                <div class="letter box">l</div>
+                <div class="letter box">m</div>
+                <div class="letter box">n</div>
+                <div class="letter box">o</div>
+                <div class="letter box">p</div>
+                <div class="letter box">q</div>
+                <div class="letter box">r</div>
+                <div class="letter box">s</div>
+                <div class="letter box">t</div>
+                <div class="letter box">u</div>
+                <div class="letter box">v</div>
+                <div class="letter box">w</div>
+                <div class="letter box">x</div>
+                <div class="letter box">y</div>
+                <div class="letter box">z</div>
             </div>
         </div>
         <!--Canvas-->
         <div class="canvas">
             <canvas id="canvas-id"></canvas>
+            <div id="find-letters"></div>
         </div>
         <!--Part-3-->
         <div class="part-3">
@@ -69,8 +70,8 @@
                 <label>Mot à deviner</label>
                 <input class="word-to-guess" type="text" placeholder="mot">
             </form>
-            <div>Il vous restes <span class="nbr-lives">8</span> vies.</div>
-            <button>Rejouer</button>
+            <div>Il vous restes <span class="nbr-lives"></span> vies.</div>
+            <button class="button" type="submit">Rejouer</button>
         </div>
 
     </main>
