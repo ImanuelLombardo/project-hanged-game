@@ -159,6 +159,22 @@ footer {
     text-transform: uppercase;
 }
 
+.boxOff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 2rem;
+    height: 2rem;
+    background-color: grey;
+    border-radius: 0.2rem;
+    border: 2px solid black;
+
+    color: lightgray;
+
+    text-transform: uppercase;    
+}
+
 .letter {
     transition: 0.6s;
 }
@@ -183,7 +199,7 @@ footer {
 
     width: 80%;
     height: 60%;
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
 
     margin: 1rem 0 2rem;
 }

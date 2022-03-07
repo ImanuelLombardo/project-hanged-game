@@ -26,4 +26,4 @@ Problème, question, doute
             - Si oui : remplir la case vide par la lettre.
             - Si non : laisser la case vide.
         - Pendant 1 semaine je suis resté bloquer sur mon code et pour finir dimanche je me suis dis que j'allais chercher de l'aide dans discord et grace à Styx j'ai pu résoudre mon soucis (soucis de logique). Pour voir de plus près voici le codepen de mon code ou je bugais "https://codepen.io/emanuel-lombardo/pen/zYPbLVM", et enfin j'ai pu continué de coder la suite.
-        
+- J'ai du mal a faire la logique du problème à effectuer
